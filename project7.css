@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Poppins:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:wght@400;500&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:aliceblue;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  .container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+  }
+  
+  .pan {
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    background-color: #04680b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+  
+.panel1 { top: 10%; left: 50%; transform: translate(-50%, 0); }
+
+.panel2 { top: 20%; right: 35%; transform: translate(15, -50%); }
+.panel8 { top: 20%; left: 35%; transform: translate(15, -50%); }
+
+.panel3 { top: 45%; right: 32%; transform: translate(0, -50%); }
+.panel7 { top: 45%; left: 32%; transform: translate(0, -50%); }
+
+.panel4 { bottom: 30%; right: 35%; transform: translate(15, 50%); }
+.panel6 { bottom: 30%; left: 35%; transform: translate(15, 50%); }
+
+.panel5 { bottom: 20%; left: 50%; transform: translate(-50%, 0); }
+
+
+
+  
+  .center-div {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: #840314;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+  }
